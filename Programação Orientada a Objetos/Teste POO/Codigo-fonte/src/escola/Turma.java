@@ -2,17 +2,15 @@ package escola;
 
 import java.util.ArrayList;
 
-public class Turma extends Pessoa{
-    private String sigla;
-    private int ano;
+public class Turma {
+    String sigla;
+    int ano;
 
-    private ArrayList<Aluno> alunos;
-
-    private ArrayList<Professor>professores;
-
-    private ArrayList<Disciplina> disciplinas;
+    ArrayList<Aluno> alunos;
+    ArrayList<Professor> professores;
+    ArrayList<Disciplina> disciplinas;
     
-    void adicionarAluno() {
-
+    void adiconarAluno(){
+        
     }
 }
